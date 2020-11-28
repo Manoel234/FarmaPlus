@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white; 
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header{
+    height: 15%;
+    width: 100%;
+    background-color: #ff0000;
+}
+
+body header nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;    
+    padding: 2%;
+}
+
+body header nav h1 {
+    font-size: 2em;
+}
+
+body header nav ul li {
+    display: inline;
+}
+
+body div,
+body form {    
+    background: #ff0000;    
+    height: 50%;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    font-size: 16pt;
+}
+
+body form input {
+    color: #ffffff;
+}
+
+body a button,
+body form #entrar, 
+body form #cadastrar,
+body div a button {
+    color: #8c2f2f;
+}
+
+span#pode {
+    color: rgb(186, 243, 129);
+}
+
+span#naopode {
+    color: rgb(0, 183, 255);
+}
+
+footer {
+    background-color: #ff0000;
+    height: 5%;
+    width: 100%;    
+    text-align: right;
+    padding: 1%;
+    font-size: .8em;    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+footer p a {
+    background-color: #ff0000;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+footer p a:hover {
+    background-color: #006494;
+    padding: 3px;
+    border-radius: 3px;
+}
